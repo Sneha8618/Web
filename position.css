@@ -1,0 +1,75 @@
+.static{
+    position : static;
+    bottom : 0;
+}
+
+.fixed{
+    position : fixed;
+    bottom : 0;
+}
+
+.relative{
+    position : relative;
+    bottom : 0;
+    left : 100px;
+}
+
+.absolute{
+    position : absolute;
+    right : 0; 
+    top : 0;
+}
+
+.absoluteFlower{
+    position: absolute;
+    bottom: 0px;
+    right: 1000px;
+    color : red;
+}
+
+.imageparent{
+    position : relative;
+}
+
+.absolutejasmini{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color : pink;
+}
+
+.imageparent{
+    position: relative;
+}
+
+.absoluteRose{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: brown;
+}
+.imageparent{
+    position: relative;
+}
+
+.absoluteSunflower{
+    position: absolute;
+    top: 0px;
+    right: 1000px;
+    color : white;
+}
+.imageparent{
+    position: relative;
+}
+
+.absolutelotus{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+  color : orange;
+}
+
+.imageparent{
+    position: relative;
+}

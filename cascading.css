@@ -1,0 +1,90 @@
+<!doctype html>  <!--version of html-->
+
+<html>
+    <head>
+        <title> CSS introduction </title>
+        <style>
+           /* h1 {
+                color: red;
+                font-size : 100px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+               }
+            h2 {
+                color: red;
+                font-size : 100px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+            }*/
+
+            h1,h2 {color: red;
+                font-size : 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+                }
+            .lets{
+                color: yellow;
+            }
+            .header-three{
+                color: blue;
+            }
+            body{
+                background-color: pink;
+            }
+            body{
+                background-color: beige;   /*task*/          
+            }
+            #idselector{
+                color :brown;
+                font-size: 100px ;
+            }
+            body{
+                background-color: forestgreen;
+                background-image: url('IMG_20211025_232302.jpg');
+            }
+            .padding{
+                padding: 10px 5px 6px 20px; /*zoom-in and zoom-out*/
+                /* left, top, right , bottom */
+                padding-right: 2px;
+                border: 3px solid black;
+                margin: 100px;
+                margin-left: 50px;
+            }
+         
+        </style>
+
+   </head>
+</html>
+
+ <body>
+
+    <h1 class = "padding"> CSS -- Selector syntax </h1>
+
+   <h2> Element Selector</h2>
+
+   <h1 class = "lets"> Lets apply specific css </h1>
+
+   <h1 class = "header-three"> apply class selector </h1>
+        
+<!--Task :  github pages, different properties of for font-->
+
+<!-- Adding background-image-->
+
+<!--topics:  syntax of css
+      different selector
+      how many ways we can write css+
+     css box model-->
+
+  <div id = "idselector">Id selector</div>
+
+  <!-- CSS box model
+        1. Margin
+        2. Border (solid, doted)
+        3.Padding
+  -->
+
+    <!-- Task -->
+    <!-- Make form to be placed at center -->
+    <!-- creat a square box -->
+    <!-- two rectangular box - box within a box, with different colors-->
+    <!-- two rectangular box with side by side-->
+    
+
+    
