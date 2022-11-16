@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+       <title> Cascading </title>  
+      <!-- selector{
+        property : value;
+       }-->
+
+       <!--internal css -->
+
+       <style>
+        /*Element selector 
+        h1{
+            color : red;
+            font-size : 50px;            
+            text-transform : uppercase;
+        } */
+
+        /* grouping selector -- combining of two elements in a single selectors
+        h2,h3{
+            color : pink;
+            font-size : 80px;
+            text-transform : lowercase;
+        }*/
+
+        /*class selector 
+        .classSelector{
+            color : green;
+            font-size: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: underline;
+        } */
+
+        /* Id selector 
+        #header{
+            color : blue;
+            font-size : 50px;
+        }
+        h3{
+            color :aqua;
+        }
+        .name{
+            color :brown;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size : 60px;
+        }
+        .address{
+            color :blueviolet;
+            font-size : 90px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #field{
+            color : yellow;
+            font-size : 60px;
+            text-transform: lowercase ;
+
+
+        }  */
+      </style>
+
+      <link rel = "Stylesheet" href = "cascading.css">
+    </head>
+
+    <body>
+        <h1> Cascading Stylesheet </h1>
+        <h2> Sneha Lokhande </h2>
+        <h3> Grouping selector </h3>
+        <h1 class = "classSelector"> Class Selector </h1>
+        <h1 class = "classSelector">Class selector</h1>
+        <h3 class = "classSelector" id = "header"> Id selector </h3>
+        <!--task -->
+        <h1 class = "name"> Annakarmel </h1> <!--change color-->
+        <h1 class = "address">Ballary</h1>  <!-- change color -->
+        <h1 class = "branch" id = "field"> Electronics</h1>  <!-- change color -->
+
+        
+
+
+        <!--priority :
+            id selector
+            class selector
+            element selector -->
+    </body>
+
+</html>
+
+<!-- different selectors:
+     1)Element selector
+     2)Grouping Selector
+     3)Class selector
+    syntax : class : ""
+     4)id selector -->
+
+    <!-- types of css
+    1)Internal css - With in a head tag we have to use style tag with in that we have to apply the properties called internal css.
+    2)External css - we have to write the properties in external file called external css. In this case we have to link css page to html page.
+    This is better. because its having the advnatge of code reuseablity.
+    we have to link the file inside the head tag using link tag follwed by a rel with in that we usestylesheet and then attribute and provide the file name
+    Ex : <head>
+        <link rel = "Stylesheet" href = "">
+
+    3) inline css
+    ex : <h4 style = "color : red;">cascading </h4>
+    -->
+
+    <!-- CSS box model 
+         1) Margin
+        2) Border
+        3) padding-->

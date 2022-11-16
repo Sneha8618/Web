@@ -1,0 +1,118 @@
+
+body{
+    background-color: beige;
+    border-top: 1cm;
+    border : 2px solid black;
+    border-width: 300px;
+    
+}
+
+.image{
+    
+    position : initial;
+    margin-left : 1000px;
+    margin-top: 20px;
+}
+
+.left{
+    margin-top : -200px;
+    position : initial;
+    padding : 20px;
+    font-size : 20px;
+    
+}
+
+.objectives{
+    padding : 20px;
+    padding-top : 20px;
+    margin-top : -20px;
+    font-size : xx-large;
+    color: brown;
+    
+}
+
+.obj{
+    padding : 20px;
+    margin-top : -20px;
+    font-size : 20px;
+}
+
+.skills{
+    padding : 20px;
+    margin-top : -20px;
+    font-size : xx-large;
+    color: brown;
+}
+
+.sk{
+    margin-top : -10px;
+    font-size: 20px;
+}
+
+.education{
+    padding : 20px;
+    margin-top : -20px;
+    font-size : xx-large;
+    color: brown;
+
+}
+
+.edu{
+    margin-top : -10px;
+    font-size : 20px;
+}
+
+.project1{
+    padding : 20px;
+    margin-top : -20px;
+    font-size: xx-large;
+    color :brown;
+}
+
+.pr1{
+    padding : 20px;
+    margin-top : -40px;
+    font-size : 20px;
+}
+
+.project{
+    padding : 20px;
+    margin-top : -20px;
+    font-size: xx-large;
+    color :brown;
+}
+
+.pr{
+    padding : 20px;
+    margin-top : -40px;
+    font-size : 20px;
+}
+
+.details{
+    padding : 20px;
+    margin-top : -20px;
+    font-size: xx-large;
+    color :brown;
+}
+
+.det{
+    padding : 20px;
+    margin-top : -40px;
+    font-size : 20px;
+
+}
+
+.declaration{
+    
+    padding : 20px;
+    margin-top : -20px;
+    font-size: xx-large;
+    color :brown;
+}
+
+.dec{
+    padding : 20px;
+    margin-top : -40px;
+    font-size : 20px;
+
+}

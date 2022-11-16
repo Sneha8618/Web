@@ -1,0 +1,164 @@
+/* Descendant selector */
+
+div p{
+    color : green;
+    
+}
+
+/* child selector */
+
+div > p{
+    color : red;
+
+}
+
+/* Adjecent sibling selector-- neighbouring paragraph  */
+
+div + p {
+    color : blue;
+}
+
+/* General sibling selector  -- it also applied for adjucent as well as next to adjecent paragraphs */
+
+div ~ p{
+    /*color : rgb(250,10,46);*/
+    color : #1e246a;
+   
+}
+
+/* color property */
+/*position property - top,bottom,left,right
+1)static - default*/
+
+.static {
+    color : white;
+    position : static;
+    left : 10px;
+    background-color: green;
+
+}
+
+.fixed{
+    position : fixed;
+    top : 200px;
+    right : 500px;
+    background-color: antiquewhite;
+}
+
+.sticky{
+    position : sticky;
+    top : 0px;
+    color : red;
+    background-color: bisque;
+}
+
+.relative{
+    position : relative;
+    left : 800px; /* or right : -300px */
+    top : -270px;
+}
+
+.absolute{
+    position : absolute;
+    left : 50px;
+    top : 0px;
+    bottom : 0px;
+}
+
+.topleft {
+    position : absolute;
+    top : 0px;
+    left : 10px;
+    color :aqua;
+}
+
+.imageparent {
+    position : relative;
+     
+}
+img{
+    border-radius: 10%;
+}
+
+body{
+    margin : 0px;
+    
+}
+
+.center{
+    position : absolute;
+    top : 70px;
+    color : red;
+    left : 0px;
+}
+
+.leftbottom{
+    position : absolute;
+    color : pink;
+    left : 0px;
+    top : 150px;
+}
+
+.centertop{
+    position : absolute;
+    color : aqua;
+    left : 110px;
+    top : 0px;
+}
+
+.center1{
+    position : absolute;
+    color : red;
+    left : 110px;
+    top : 70px;
+}
+
+.centerbottom{
+    position : absolute;
+    color : pink;
+    left : 110px;
+    top : 150px;
+
+}
+
+.topright {
+    position : absolute;
+    color : pink;
+    left : 200px;
+    top : 0px;
+}
+
+.center2{
+    position : absolute;
+    color : red;
+    left : 200px;
+    top : 70px;
+}
+
+.bottomright{
+    position : absolute;
+    color : pink;
+    left : 200px;
+    top : 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left : 0px;
+}
+
+/* var bar */
+li{
+    padding : 3px;
+    background-color: pink;
+    color : red;
+    
+}
+
+/* hor bar */
+li{
+    float : left;
+    background-color: red;
+    color : white;
+    
+}

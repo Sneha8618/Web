@@ -1,0 +1,51 @@
+.side{
+    border : 2px solid blue;
+    height : 150px;
+    width : 300px;
+    display: inline-block;
+}
+
+.side1{
+    border : 2px dotted blue;
+    height : 150px;
+    width : 300px;
+    display : inline-block;
+}
+
+.inside{
+    border : 2px solid red;
+    height : 200px;
+    width : 400px;
+    
+}
+
+.inside1{
+    border : 2px solid red;
+    height : 100px;
+    width : 300px;
+    position : absolute;
+    margin : 50px 70px 70px 50px;
+    
+}
+
+.rect1{
+    border : 2px solid greenyellow;
+    height : 200px;
+    width : 400px;
+
+}
+
+.rect2{
+    border : 2px solid red;
+    height : 100px;
+    width : 200px;
+    margin : 60px;
+}
+
+body {
+    background-image: url('images (1).jfif');
+    height : 50px;
+    width : 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

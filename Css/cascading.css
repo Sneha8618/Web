@@ -1,0 +1,45 @@
+h1{
+    color : red;
+    font-size : 50px;            
+    text-transform : uppercase;
+}
+
+h2,h3{
+    color : pink;
+    font-size : 80px;
+    text-transform : lowercase;
+}
+
+.classSelector{
+    color : green;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+#header{
+    color : blue;
+    font-size : 50px;
+}
+
+h3{
+    color :aqua;
+}
+
+.name{
+    color :brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 60px;
+}
+
+.address{
+    color :blueviolet;
+    font-size : 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#field{
+    color : yellow;
+    font-size : 60px;
+    text-transform: lowercase ;
+}

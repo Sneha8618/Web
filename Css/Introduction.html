@@ -1,0 +1,137 @@
+<!--CSS stands for cascading style sheet.
+
+   What is css?
+   CSS describes how html elements are to be displayed on the screen, page or website.
+
+   Why we use CSS?
+   CSS is used to define styles for our web pages, including layout, designs and variations in display for different devices and screen sizes.
+
+
+   syntax of css:
+   A css rules consist of a selector and a declaration block.
+   selector{
+    property : value;
+   }
+
+   Ex: p{
+      color : red -- color is a property and red is value
+   }
+-->
+
+<!-- Selectors: These are used to find the html elements we want to style.
+   Types of selectors.......
+1)Element selector : Element selector selects html elements based on the element name.
+ex:
+p{
+   color : red;
+}
+
+2)id selector : The id selector uses the id attribute of an HTML element to select a specific element.
+*)The id of an element is unique within a page, so the id selector is used to select one unique element!
+*)To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+ex:
+<body>
+   <div class = "id" id = "123"> Sneha </div>
+   </body>
+
+#id{
+   color : red;
+}
+
+3)Class selector : The class selector selects HTML elements with a specific class attribute.
+*)To select elements with a specific class, write a period (.) character, followed by the class name.
+
+Ex:
+<body>
+   <div class = "name"> Sneha </div>
+</body>
+
+.name{
+   color : red;
+}
+
+4) Grouping selector : The grouping selector selects all the HTML elements with the same style definitions.
+Ex :
+<body>
+   <h1> Sneha </h1>
+   <h2> Annaakarmel </h2>
+</body>
+
+h1,h2{
+   color : yellow;
+}
+-->
+
+<!-- There are 3 types of css :
+1) Internal css
+2) External css
+3) Inline css
+
+1) Internal css : In internal css we have to apply css styles within a html page only 
+
+2) External css : In external css we have to apply styles in different file with .css extension
+
+3) Inline css : An inline style may be used to apply a unique style for a single element.
+-->
+
+<!-- css padding : 
+*) Padding is used to creat a space around an elements content, inside any defined borders.
+For specifying padding the padding for each side of an element.
+Padding properties:
+i)padding-top
+ii)padding-right
+iii)padding-bottom
+iv)padding-left
+
+*) padding property has 4 values 
+ex : padding 25px 50px 60px 80px;
+25px is padding-top
+50px is padding-right
+60px is padding-bottom
+80px is padding-left--->
+
+<!-- Margins : Css margins are used to creat a space around element, outside of any defined borders
+
+there are 4 margin properties :
+1)margin-top
+2)margin-right
+3)margin-bottom
+4)marging-left
+
+ex: margin 20px 25px 30px 35px;
+20px is margin-top
+25px is margin-right
+30 is margin-bottom
+35px is margin-left
+-->
+
+<!-- css combinators --  combinator is something that explains the relationship between selectors.
+1)Descendant selector(space) -- The descendant selector matches all the elements that are descendants of a specific element.
+ex : 
+div p {
+   background-color : yellow;
+}
+
+2)child selector(>) -- The child selector selects all elements that are the children of a specified element.
+Ex : 
+div > p{
+   background-color : green;
+}
+
+3)Adjecent sibling selector(+) -- The adjecent sibling selector is used an element that is directly after another specific element.
+Ex:
+div + p{
+   background-color : red;
+}
+
+4)General sibling selector(~) -- The child selector selects all elements that are the children of a specified element.
+Ex :
+div ~ p{
+   background-color : blue;
+}
+
+
+
+
+-->
+
