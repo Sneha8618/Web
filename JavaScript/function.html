@@ -1,0 +1,120 @@
+<!DOCTYPE httml>
+<html>
+    <head>
+        <title> Function </title>
+        <script>
+            function displayDate(){
+                console.log("calling displayDate")
+                var date = new Date()
+                console.log(date)
+                console.log(date.getFullYear())
+                console.log(date.getDay())
+                console.log(date.getMonth())
+
+                document.getElementById("html").innerHTML = date
+                document.getElementById("html").style.color = "green"
+
+               // window.location.href = "./IMG_20211025_232302.jpg"
+
+            }
+
+            //function express
+            var output = function display(){
+                console.log("calling display")
+            }
+           // console.log(output)
+            output()
+
+            //Ananymous function
+
+            var ananymous = function (){
+                console.log("calling ananymous function")
+
+            }
+            ananymous()
+
+            var a;
+            a = 10;
+            console.log(a)
+            var a;
+            console.log(a)
+            
+            //reuse of same variable will not work in let
+            let b;
+            b = "script"
+            console.log(b);
+           // let b;
+           // console.log(b)
+
+           const PI = 3.14;
+           console.log(PI)
+          
+           //var, let, const - datatypes
+
+           //print statement 10 times
+           for(let i =0; i < 10; i++ ){
+            console.log("Learning looping in javascript")
+    
+           }
+
+          // do{
+           // console.log("calling do while")
+          // }
+
+           //Arrays
+           let arr = [1, 2, 3, 4, 5]
+           console.log(arr)
+
+           let arr1 = [1, 2, "java", "javascript"]
+           console.log(arr1)
+
+           for(let i = 0; i < arr1.length; i++){
+            console.log(arr1[i])
+         }
+           
+           let arr3 = []
+           arr3.push(5) //push will add an element at end of array
+           arr3.push(6)
+           arr3.push(7)
+           console.log(arr3)
+        
+           arr3.pop() //pop will reemove an element at the end of array
+           console.log(arr3)
+
+           arr3.unshift(10)
+           console.log(arr3)
+           arr3.unshift(11)
+           console.log(arr3)
+
+           arr3.shift()    //shift will remove an element at biginning of array
+           console.log(arr3)
+
+           let movie = { //for object we use {}, for element we use[]
+               "movieName" : "Kantara",
+               "price" : 200
+        }
+
+        let movie1 = {
+            "movieName" : "CheluvinChittar",
+            "price" : 200
+        }
+        console.log(movie)
+        console.log(movie1)
+
+        let movies = []
+        movies.push(movie)
+        movies.push(movie1)
+        console.log(movies)
+
+        function getMoviesName(){
+            
+        }
+
+</script>
+    </head>
+    <body>
+        <button  onclick = "displayDate()">Click on me i will show you the date</button>
+        <div id = "html"> </div>
+        <button onclick = "getMoviesName()"> Get movies name</button>
+    </body>
+</html>
