@@ -22,7 +22,7 @@ div + p {
 
 div ~ p{
     /*color : rgb(250,10,46);*/
-    color : #1e246a;
+    color : yellow;
    
 }
 
